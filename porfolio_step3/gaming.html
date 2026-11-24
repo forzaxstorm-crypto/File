@@ -1,0 +1,296 @@
+    
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Store — Магазин игровых товаров</title>
+    <meta name="description" content="Gaming Store — каталог игровых консолей и аксессуаров с демонстрационными ценами и корзиной покупок.">
+    <meta property="og:title" content="Gaming Store — Магазин игровых товаров">
+    <meta property="og:description" content="Gaming Store — каталог игровых консолей и аксессуаров с демонстрационными ценами и корзиной покупок.">
+    <meta property="og:url" content="https://forzaxstorm-crypto.github.io/portfolio/gaming.html">
+    <meta property="og:image" content="https://forzaxstorm-crypto.github.io/portfolio/images/ps5-pro.webp">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="gaming.css">
+</head>
+
+<body>
+
+    <a class="skip-link" href="#main-content">Перейти к основному содержимому</a>
+
+    <header class="header">
+        <div class="logo">🎮 GAMING STORE</div>
+
+        <nav class="nav">
+            <a href="#home">Главная</a>
+            <a href="#catalog">Каталог</a>
+            <a href="#about">О магазине</a>
+            <a href="#contact">Контакты</a>
+        </nav>
+
+<a href="index.html" class="portfolio-link">
+    ← Вернуться в портфолио
+</a>
+
+        <button class="cart-button" id="cart-open" type="button">
+    🛒 Корзина <span id="cart-count">0</span>
+</button>
+    </header>
+
+<main id="main-content" tabindex="-1">
+    <section class="hero" id="home">
+    <div class="hero-content">
+        <span class="hero-tag">Твоя игровая территория</span>
+
+        <h1>
+            LEVEL UP<br>
+            YOUR <span>GAME</span>
+        </h1>
+
+        <p>
+            Всё для настоящих геймеров в одном месте.
+            Мощные игровые устройства, аксессуары
+            и техника для максимального погружения.
+        </p>
+
+        <a href="#catalog" class="hero-button">
+            Смотреть каталог
+        </a>
+    </div>
+
+    <div class="hero-emblem">
+        <div class="emblem-ring"></div>
+        <div class="emblem-core">
+            <span class="emblem-letter">G</span>
+            <span class="emblem-name">GAMING<br>STORE</span>
+        </div>
+        <div class="emblem-orbit"></div>
+    </div>
+</section>
+
+<section class="catalog" id="catalog">
+
+    <div class="catalog-heading">
+        <span class="catalog-tag">Выбирай свой уровень</span>
+        <h2>ТОВАРЫ <span>ДЛЯ ГЕЙМЕРОВ</span></h2>
+        <p>Технологии, которые меняют правила игры.</p>
+    </div>
+
+    <div class="product-grid">
+
+        <article class="product-card">
+            <span class="product-badge">ХИТ ПРОДАЖ</span>
+            <div class="product-visual ps5-visual">
+    <img src="images/ps5-pro.webp" alt="PlayStation 5 Pro" width="1400" height="1120" loading="lazy" decoding="async">
+</div>
+<button class="add-to-cart" type="button"
+    data-name="PlayStation 5 Pro"
+    data-price="34999">
+    В КОРЗИНУ
+</button>
+            <div class="product-info">
+                <p class="product-category">PLAYSTATION</p>
+                <h3>PlayStation 5 Pro</h3>
+                <p class="product-description">
+                    Максимальная мощность и невероятная детализация.
+                </p>
+                <div class="product-bottom">
+                    <strong>34 999 ₴</strong>
+                    <span class="product-demo">Демо-цена</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <span class="product-badge new-badge">ОЖИДАЕТСЯ</span>
+           <div class="product-visual gta-visual">
+    <img src="images/gta-6.webp" alt="Grand Theft Auto VI" width="1400" height="838" loading="lazy" decoding="async">
+</div>
+<button class="add-to-cart" type="button"
+    data-name="Grand Theft Auto VI"
+    data-price="2999">
+    В КОРЗИНУ
+</button>
+            <div class="product-info">
+                <p class="product-category">ROCKSTAR GAMES</p>
+                <h3>Grand Theft Auto VI</h3>
+                <p class="product-description">
+                    Новая глава легендарной игровой серии.
+                </p>
+                <div class="product-bottom">
+                    <strong>2 999 ₴</strong>
+                    <span class="product-demo">Демо-цена</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <span class="product-badge">PREMIUM</span>
+            <div class="product-visual controller-visual">
+    <img src="images/dualsense-edge.webp" alt="DualSense Edge Gamepad" width="1400" height="711" loading="lazy" decoding="async">
+</div>
+<button class="add-to-cart" type="button"
+    data-name="DualSense Edge"
+    data-price="8999">
+    В КОРЗИНУ
+</button>
+            <div class="product-info">
+                <p class="product-category">PLAYSTATION ACCESSORIES</p>
+                <h3>DualSense Edge</h3>
+                <p class="product-description">
+                    Профессиональный контроль в каждой игре.
+                </p>
+                <div class="product-bottom">
+                    <strong>8 999 ₴</strong>
+                    <span class="product-demo">Демо-цена</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <span class="product-badge new-badge">ТОП ВЫБОР</span>
+           <div class="product-visual headset-visual">
+    <img src="images/pulse-elite.webp" alt="Pulse Elite" width="1254" height="1254" loading="lazy" decoding="async">
+</div>
+<button class="add-to-cart" type="button"
+    data-name="Pulse Elite"
+    data-price="6499">
+    В КОРЗИНУ
+</button>
+            <div class="product-info">
+                <p class="product-category">PLAYSTATION AUDIO</p>
+                <h3>Pulse Elite</h3>
+                <p class="product-description">
+                    Погружение в игровой мир с чистым звуком.
+                </p>
+                <div class="product-bottom">
+                    <strong>6 499 ₴</strong>
+                    <span class="product-demo">Демо-цена</span>
+                </div>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<!-- О МАГАЗИНЕ -->
+<section class="about" id="about">
+    <div class="about-content">
+        <p class="section-label">КТО МЫ ТАКИЕ</p>
+        <h2>БОЛЬШЕ ЧЕМ ПРОСТО <span>МАГАЗИН</span></h2>
+        <p class="about-text">
+            GAMING STORE — место для тех, кто живёт играми.
+            У нас ты найдёшь современные игровые консоли,
+            аксессуары и всё необходимое для максимального
+            погружения в игровой мир.
+        </p>
+
+        <div class="about-features">
+            <div class="feature">
+                <span>🎮</span>
+                <h3>Топовые товары</h3>
+                <p>Актуальная техника и игровые аксессуары</p>
+            </div>
+
+            <div class="feature">
+                <span>🚀</span>
+                <h3>Быстрая доставка</h3>
+                <p>Получай свои покупки без лишнего ожидания</p>
+            </div>
+
+            <div class="feature">
+                <span>💜</span>
+                <h3>Поддержка</h3>
+                <p>Поможем выбрать подходящее оборудование</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- КОНТАКТЫ -->
+<section class="contact" id="contact">
+    <p class="section-label">МЫ НА СВЯЗИ</p>
+    <h2>ЕСТЬ <span>ВОПРОСЫ?</span></h2>
+    <p class="contact-description">
+        Напиши или позвони нам — поможем с выбором!
+    </p>
+
+    <div class="contact-grid">
+        <div class="contact-card">
+            <span>📍</span>
+            <h3>Адрес</h3>
+            <p>Украина, Винница</p>
+        </div>
+
+        <div class="contact-card">
+            <span>📞</span>
+            <h3>Телефон</h3>
+            <p>+380 00 123 45 67</p>
+        </div>
+
+        <div class="contact-card">
+            <span>✉️</span>
+            <h3>Email</h3>
+            <p>gamingstore@example.com</p>
+        </div>
+
+        <div class="contact-card">
+            <span>🕒</span>
+            <h3>График работы</h3>
+            <p>Ежедневно: 09:00–20:00</p>
+        </div>
+    </div>
+</section>
+
+    </main>
+
+<!-- УВЕДОМЛЕНИЕ О ДОБАВЛЕНИИ -->
+<div class="cart-toast" id="cart-toast" role="status" aria-live="polite" aria-atomic="true">
+    <span class="toast-check" aria-hidden="true">✓</span>
+    <span id="cart-toast-message"></span>
+</div>
+
+<div class="cart-overlay" id="cart-overlay">
+    <div class="cart-modal" role="dialog" aria-modal="true" aria-labelledby="cart-title" tabindex="-1">
+
+        <div class="cart-header">
+            <h2 id="cart-title">🛒 ТВОЯ КОРЗИНА</h2>
+            <button class="cart-close" id="cart-close" type="button" aria-label="Закрыть корзину">&times;</button>
+        </div>
+
+        <div id="cart-items">
+            <p class="cart-empty">Корзина пока пуста</p>
+        </div>
+
+        <div class="cart-total">
+            Итого: <strong id="cart-total">0 ₴</strong>
+        </div>
+
+    </div>
+</div>
+
+<script src="gaming.js" defer></script>
+
+<!-- FOOTER GAMING STORE -->
+<footer class="gaming-footer">
+    <div class="footer-content">
+        <h2>GAMING <span>STORE</span></h2>
+        <p>Твоя территория игрового превосходства.</p>
+<nav class="footer-nav">
+    <a href="#home">Главная</a>
+    <a href="#catalog">Каталог</a>
+    <a href="#about">О нас</a>
+    <button type="button" id="footer-cart-link">Корзина</button>
+    <a href="#contact">Контакты</a>
+</nav>
+        <div class="footer-line"></div>
+
+        <p class="footer-copy">
+            © 2026 Gaming Store. Все права защищены.
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>

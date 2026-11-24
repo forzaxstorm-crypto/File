@@ -1,0 +1,19 @@
+{
+  "name": "rostislav-frontend-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Личное Frontend-портфолио и учебные проекты",
+  "scripts": {
+    "format": "prettier --write \"**/*.{html,css,js,md,json}\"",
+    "format:check": "prettier --check \"**/*.{html,css,js,md,json}\"",
+    "lint:css": "stylelint \"**/*.css\"",
+    "lint:html": "html-validate \"*.html\"",
+    "check": "npm run format:check && npm run lint:css && npm run lint:html"
+  },
+  "devDependencies": {
+    "html-validate": "^10.5.0",
+    "prettier": "^3.6.2",
+    "stylelint": "^16.23.1",
+    "stylelint-config-standard": "^39.0.0"
+  }
+}
